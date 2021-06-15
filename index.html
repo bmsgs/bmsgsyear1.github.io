@@ -7,38 +7,44 @@
 </head>
 
 <body>
+	
+	
 	<div class="head"><h1>3D Data Formats</h1></div>
 	
-	<img src="3dmesh.png" class="box">
+	<img src="3dmesh.png" alt="3d_mesh" class="box">
+	
+
 	<div class="head"><h2>Common Formats</h2></div><br>
-		<p>Every 3D file format stores  information about the geometry of a 3 dimensional object. Each extension has its own characteristics, and some can store additional information, such as appearance information (colour, texture), animation, and the scene (camera position, lighting).<br><br><br>These are some of the most commonly used 3D file formats:</p>	
+		<p>Every 3D file format stores  information about the geometry of a 3-dimensional object. Each extension has its own characteristics, and some can store additional information, such as appearance information (colour, texture), animation, and the scene (camera position, lighting).<br><br><br>These are some of the most commonly used 3D file formats:</p>	
 	
 		<div class="list"><ul>
 			<li>.STL (StereoLitography)</li>
 			<li>.OBJ (Object Wavefront)</li>
-			<li>.STEP</li>
-			<li>.FBX</li>
-			<li>.3DS</li>
-			<li>.USD</li>	
+			<li>.STEP (Standard for the Exchange Product Data)</li>
+			<li>.FBX (Filmbox)</li>
+			<li>.3DS (3D Studio)</li>
+			<li>.USD (Universal Scene Description)</li>	
 	</ul></div>
 	
-	<img src="formats.png" class="formats">
-	
-	
-	
-	
-	
+	<img src="formats.png" alt="file_extensions" class="formats">
 
-	<div class="head"><h2>Desired Outcome</h2></div><br>
-	<p>Since each format has a different way of encoding and can store different aspects of a 3D shape, it is important to keep in mind the end result when working on a 3D model, to ensure that the extension we use will fit our needs accordingly. <br><br><br>There are mainly 4 uses for 3D modeling:</p>
-	<ul>
-			<li>3D Printing</li>
-			<li>Engineering</li>
-			<li>Gaming</li>
-			<li>Animation</li>
-	</ul>
+		<div class="head"><h2>Desired Outcome</h2></div><br>
+	<p>Since each format has a different way of encoding and can store different aspects of a 3D shape, it is important to keep in mind the end result when working on a 3D model, to ensure that the extension we use will fit our needs accordingly. There are 4 main uses for 3D modeling. Hover above them to see the recommended file format to work in.</p>
+
+	
+	<div id="contain">
+		<b class="stack" id="one"><p>3D Printing</p></b>
+			<div class="hide1"><strong>STL</strong> and <strong>OBJ</strong> are extensions compatible with most 3D modeling softwares and slicers, and the information they can hold is sufficient for the level of precision of today's 3D printers.</div>
+		<b class="stack" id="two"><p>Engineering</p></b>
+			<div class="hide2"><strong>STEP</strong> and <strong>IGES</strong> were created for CAD software, and they also support topology, textures, and other features relevant to engineering and computer-aided design.</div>
+		<b class="stack" id="three"><p>Gaming</p></b>
+			<div class="hide3"><strong>FBX</strong> and <strong>3DS</strong> files were created with animation in mind. They support features such as skeletal animation and scene information, and are widely used in the video game industry. </div>
+		<b class="stack" id="four"><p>Animation</p></b>
+			<div class="hide4"><strong>FBX</strong> and the recent <strong>USD</strong> file format are becoming the industry standard when it comes to animation. They both store information on the geometry, colour, texture, animation, scene and lighting. USD files even have a collaborative feature, which allow you to work with other people on the same project. </div>
+	</div>
+
 	
 	<br><br><br><br><br>
-	<p class="footer">To find more information on a suitable 3D file format for your project, please <a href="https://all3dp.com/3d-file-format-3d-files-3d-printer-3d-cad-vrml-stl-obj/>" target="_blank" rel="noopener noreferrer"><b id="hover">click here.</b></a></p>
+	<div class="footer">To find more information on a suitable 3D file format for your project, please <a href="https://all3dp.com/3d-file-format-3d-files-3d-printer-3d-cad-vrml-stl-obj/>" target="_blank" rel="noopener noreferrer">click here.</a></div>
 </body>
 </html>
